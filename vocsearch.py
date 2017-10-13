@@ -8,6 +8,8 @@ langs = {
 "en" : open("en.xml", "r", encoding="utf-8")
 }
 
+help_msg = '"C" - переведено, но закомментированно; "+" - переведено; " " - не переведено'
+
 lang_names = {}
 names_set = set()
 commented_names = {}
@@ -52,5 +54,6 @@ for name in sorted(names_set):
 
     table.append_row(row)
 
+print(help_msg)
 print(table)
-print(commented_names)
+print(help_msg)
