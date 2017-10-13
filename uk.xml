@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  -->
+    <string name="app_name">РестАрт: Офіціант</string>
+    <!-- Тест для LaunchActivity -->
+    <string name="launch_info">Йде завантаження\n даних</string>
+    <!-- Меню для login activity -->
+    <string name="settings">Налаштування</string>
+    <!-- Діалоги -->
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <!-- Налаштування -->
+    <string name="server_title">Адреса сервера</string>
+    <string name="web_group_guid">{4b2cbfb0-1941-11e4-8c21-0800200c9a66}</string>
+    <!-- hints -->
+    <string name="enter_serverAddress">Введіть адресу сервера… </string>
+    <!-- About -->
+    <string name="about_text">Рарус Ресторан.\n\nВерсія: %%version%%\nскладання: %%num%%</string>
+    <!-- PreferencesActivity -->
+    <string name="title_check_service_connection">Перевірка з\'єднання з сервером...</string>
+    <string name="title_service_state">Стан серверу</string>
+    <string name="msg_service_connected">З\'єднання з сервером встановлено</string>
+    <string name="msg_service_unavailable">Помилка при з\'єднанні з сервером</string>
+    <!-- OrderListActivity -->
+    <string name="title_receive_order_list">Здобуття списку замовлень...</string>
+    <string name="title_choose_order">Оберіть замовлення</string>
+    <string name="title_eneter_guest_count">Вкажіть кількість гостей</string>
+    <string name="title_new">Новий</string>
+    <string name="option_refresh_orders">Оновити список замовлень</string>
+    <!-- Default settings -->
+    <string name="default_service_address">oasur.asuscomm.com:29121</string>
+    <string name="refresh_data">Оновити дані</string>
+    <string name="warn_zero_value">Введене значення має бути більше 0</string>
+    <string name="msg_error">Помилка</string>
+    <string name="msg_ivalid_pass">Невірний пароль!</string>
+    <string name="msg_not_found">За запитом нічого не знайдено</string>
+    <string name="pbar_load_users">Завантаження списку користувачів...</string>
+    <string name="ok">ОК</string>
+    <string name="wrn_insufficient_mods">Недостатньо модифікаторів</string>
+    <string name="refresh_title">Спробувати знову</string>
+    <string name="err_no_wi_fi">Відсутній зв\'язок. Перевірте Wi-fi і спробуйте ще раз.</string>
+    <string name="title_order_list">АКТИВНІ ЗАМОВЛЕННЯ</string>
+    <string name="title_currency">грн.</string>
+    <string name="stub_sharp">###</string>
+    <string name="stub_number">№</string>
+    <string name="stub_price">10 500 грн.</string>
+    <string name="stub_area">Перший поверх</string>
+    <string name="stub_object">Стіл 1</string>
+    <string name="title_menu">Меню</string>
+    <string name="no_menu_items">Немає меню, зверніться до адміністратора</string>
+    <string name="pref_order_list_position">Позиція списку замовлень</string>
+    <string name="msg_invalid_token">Час сесії минув! Будь ласка, увійдіть повторно.</string>
+
+    <string name="item_merchandise">Товар</string>
+    <string name="item_service">Послгуа</string>
+    <string name="item_course">Страва</string>
+    <string name="item_business_lunch">Бізнес-ланч</string>
+
+
+    <string-array name="position_variant">
+        <item>Зліва</item>
+        <item>Справа</item>
+    </string-array>
+
+    <string name="activity_title_orders_list_activity">Столи і зони</string>
+    <string name="warn_stopped_menu_item">Позиція %s знаходиться в стоп-листі.</string>
+    <string name="title_check_server_connection">Перевірити зв\'язок з сервером</string>
+    <string name="exit_dialog_question">Ви дійсно хочете вийти з програми?</string>
+    <string name="stub_time">00:00</string>
+    <string name="stub_menu">Просто меню</string>
+    <string name="title_new_order">НОВЕ ЗАМОВЛЕННЯ:</string>
+    <string name="description_no_description">немає опису</string>
+    <string name="hint_enter_password">Ваш пароль</string>
+    <string name="stub_dish_name">Чай Серце дракона 300мл</string>
+    <string name="title_order">Замовлення</string>
+    <string name="title_to_kitchen">На кухню</string>
+    <string name="title_total">Всього:</string>
+    <string name="title_loading">Йде завантаження</string>
+    <string name="stub_group">Група</string>
+    <string name="stub_text">Text</string>
+    <string name="stub_date">12.07</string>
+    <string name="stub_guest">Гостей:</string>
+    <string name="number_zero">0</string>
+    <string name="title_ready">Готово</string>
+    <string name="title_order_sended_to_kitchen">Замовлення відправлено на кухню</string>
+    <string name="title_menu_search">Пошук страв</string>
+    <string name="hint_search_query">Назва страви</string>
+    <string name="stub_list_title_product">Product</string>
+    <string name="title_no_description">Опис Опис відсутній</string>
+    <string name="title_name">НАЙМЕНУВАННЯ</string>
+    <string name="title_count">КІЛЬКІСТЬ</string>
+    <string name="title_price">ЦІНА</string>
+    <string name="price_title">Ціна: </string>
+    <string name="stub_count">23</string>
+    <string name="title_save">Записати</string>
+    <string name="hint_comment">Коментар</string>
+    <string name="stub_10">10</string>
+    <string name="title_stub_count">Вкажіть кількість</string>
+    <string name="stub_price_zero">0</string>
+    <string name="warn_no_connection">Відсутнє з\'єднання з інтернетом</string>
+    <string name="title_delete">Видалити</string>
+    <string name="title_7">7</string>
+    <string name="title_8">8</string>
+    <string name="title_9">9</string>
+    <string name="title_6">6</string>
+    <string name="title_5">5</string>
+    <string name="title_4">4</string>
+    <string name="title_1">1</string>
+    <string name="title_2">2</string>
+    <string name="title_3">3</string>
+    <string name="title_dot">.</string>
+    <string name="title_0">0</string>
+    <string name="title_half">1/2</string>
+    <string name="stub_table_5">Стіл №5 Замовлення</string>
+    <string name="tile_to_kitchen">На кухню</string>
+    <string name="title_save_order">Записати замовлення?</string>
+    <string name="title_precheck">Пречек</string>
+    <string name="template_money">%.2f грн.</string>
+    <string name="title_remove_mod">Видалити модифікатор?</string>
+    <string name="warn_unsupported_nfc">Пристрій не підтримує NFC</string>
+    <string name="title_card">Картка</string>
+    <string name="question_new_card">Картку не виявлено.Створити нову?</string>
+    <string name="error_server_err">Відсутній зв\'язок з сервером.</string>
+    <string name="title_enter_weight">Вкажіть вагу</string>
+    <string name="question_change_mod_count">Змінити кількість модифікаторів відповідно до основної страви?</string>
+    <string name="question_delete_item">Ви хочете видалити вибраний елемент?</string>
+    <string name="error_no_server_connection">Відсутній зв\'язок з сервером.</string>
+    <string name="error_invalid_adress_format">Невірний формат адреси серверу.</string>
+    <string name="msg_order_is_loaded">Замовлення завантажено успішно</string>
+    <string name="msg_order_isnt_loaded">Замовлення не було завантажено</string>
+
+    <string-array name="variants">
+        <item>Друкувати пречек</item>
+        <item>Повернутися в замовлення</item>
+        <item>Вийти із замовлення</item>
+    </string-array>
+
+    <string name="variant_print_precheck">Друкувати пречек</string>
+    <string name="variant_to_order">Повернутися в замовлення</string>
+    <string name="variant_exit_from_order">Вийти із замовлення</string>
+
+    <string name="template_money_no_fractions">%.0f грн.</string>
+    <string name="currency_ru">&quot; грн.&quot;</string>
+    <string name="stub_1">1</string>
+    <string name="stub_slash">/</string>
+    <string name="stub_4">4</string>
+    <string name="stub_table">Стіл 1</string>
+    <string name="hint_last_name">Прізвище</string>
+    <string name="hint_first_name">Ім\'я</string>
+    <string name="hint_patronimic">По батькові</string>
+    <string name="hint_birthday">Дата народження</string>
+    <string name="hint_phone">Телефон</string>
+    <string name="hint_email">Email</string>
+    <string name="title_create">Створити</string>
+    <string name="title_new_card">Нова картка</string>
+    <string name="err_field_required">Поле обов\'язкове для заповнення</string>
+    <string name="stub_table_order">Стіл №5 Замовлення</string>
+    <string name="title_card_mode">Режим сканування карток</string>
+
+    <string-array name="card_mods">
+        <item>Автоматичний</item>
+        <item>Ручний</item>
+    </string-array>
+
+    <string name="title_enter_card">Введення картки</string>
+    <string name="title_order_another">Замовлення</string>
+    <string name="stub_dialog_title">Замовлення стіл № 5: Картка</string>
+    <string name="title_card_number">Номер картки:</string>
+    <string name="title_barcode">Штріхкод</string>
+    <string name="title_done">Готово</string>
+    <string name="title_fastfood_order">Замовлення фастфуд</string>
+    <string name="title_fastfood">Фастфуд</string>
+    <string name="title_to_cash">На касу</string>
+    <string name="enter_birthday">Вкажіть дату свого народження</string>
+    <string name="error_on_order">Сталася помилка при відправлені замовлення. Спробуйте ще раз.</string>
+    <string name="toast_send_successfull">Замовлення відправлено успішно</string>
+    <string name="msg_send_to_cash">Відправити замовлення на касу?</string>
+    <string name="msg_exit_from_fastfood">Вийти з редагування замовлення? Інформацію не буде збережено.</string>
+
+    <!-- New strings -->
+    <string name="option_relogin">Увійти під іншим користувачем</string>
+    <string name="option_logout">Вийти</string>
+    <string name="error_while_check_on_server">Помилка при перевірці кількості на сервері. Спробуйте ще раз.</string>
+    <string name="error_insufficient_product_count">В наявності є лише %.0f одиниць продукту</string>
+    <string name="err_insufficient_product_count">Недостатня кількість продукту</string>
+    <string name="err_order_isnt_loaded">Помилка на сервері. Замовлення не завантажено</string>
+    <string name="error_service_err">Помилка на сервері. Спробуйте ще раз.</string>
+    <string name="error_cant_create_card">Помилка при створенні картки. Спробувати ще раз?</string>
+    <string name="msg_card_isnt_found">Картку не виявлено\nСтворити нову?</string>
+    <string name="title_card_dialog">Замовлення %s: Картка</string>
+    <string name="title_scan_card">Відскануйте картку</string>
+    <string name="msg_card_have_saved">Картку записано успішно</string>
+    <string name="title_need_app_barcode_scanner">Встановити Barcode Scanner?</string>
+    <string name="msg_install_barcode_scanner">Для сканування необхідно додаток Barcode Scanner. Встановити його?</string>
+    <string name="stub_message">Сообще́ние — наименьший элемент языка, имеющий идею или смысл, пригодный для общения. Также, форма предоставления информации, совокупность знаков или первичных сигналов, содержащих информацию.</string>
+    <string name="stub_message_type">Ахтунг</string>
+    <string name="stub_message_date">2 января</string>
+    <string name="stub_message_time">12:52</string>
+
+    <!--  -->
+    <string-array name="order_editor_schemes">
+        <item>Замовлення, Меню, Групи</item>
+        <item>Замовлення, Групи, Меню</item>
+        <item>Групи, Меню, Замовлення</item>
+    </string-array>
+
+    <string name="pref_order_items_position">Схема екрана редагування замовлення</string>
+    <string name="title_message_readed">Прочитано</string>
+    <string name="notification_new_message">Нове повідомлення</string>
+    <string name="notification_new_messages_count">Нових повідомлень: %s</string>
+    <string name="title_view_message_list">Переглянути повідомлення</string>
+    <string name="notification_new_messages">Є нові повідомлення</string>
+    <string name="title_message_obsolete">Показувати повідомлення не старше ніж (днів)</string>
+    <string name="hint_days_count">Днів</string>
+    <!--  -->
+    <string name="title_demo_mod">Вказані параметри демо доступу. Пароль для входу 777.</string>
+    <string name="btn_demo_server">встановити адресу\nдемосервера</string>
+    <string name="order_number">Замовлення № %d</string>
+    <!--  -->
+    <string name="err_pass_shouldnt_be_empty">The password must be filled</string>
+    <string name="err_card_is_blocked">Картка заблокована</string>
+    <!--  -->
+    <string name="default_organization_name">Ресторан</string>
+
+    <string name="default_design_version_phone">Для смартфона</string>
+    <string name="default_design_version_tablet">Для планшета</string>
+
+
+    <string name="title_welcome">------ЛАСКАВО ПРОСИМО------</string>
+    <string name="titel_guest_bill">****************ГОСТЬОВИЙ РАХУНОК****************</string>
+    <string name="check_bottom">======================================</string>
+    <string name="title_total_by_order">Всього по замовленню:</string>
+    <string name="discount_title">Знижка:</string>
+    <string name="title_total_sum">Загальна сума:</string>
+    <string name="title_avanse">Аванс:</string>
+    <string name="card_avance">Картка:</string>
+    <string name="title_total_for_pay">Разом до сплати:</string>
+    <string name="default_discount_name">Знижка</string>
+    <string name="precheck_order_number">Замовлення № %d</string>
+    <string name="precheck_waiter">Офіціант: %s</string>
+    <string name="precheck_precheck">Пречек: %s</string>
+    <string name="precheck_table_opened">Cтіл відкритий: %s</string>
+    <string name="precheck_printed">Віддруковано: %s</string>
+    <string name="title_error_on_service">Сталася помилка при спробі зв\'язатися з сервером</string>
+    <!--  -->
+    <string name="title_card_with_name">Картка: %s</string>
+    <string name="title_guest_with_number" formatted="false">Гостей: %d/%d</string>
+    <string name="title_order_editor" formatted="false">Замовлення № %d: %s (%s)</string>
+    <string name="error_order_item_creation">Сталася помилка при створенні позиції замовлення</string>
+    <string name="error_open_order">Ошибка при открытии заказа</string>
+    <string name="error_order_new_owner">Помилка при відкритті замовлення</string>
+    <string name="version" formatted="false">Версія %s.%d</string>
+    <string name="title_menu_update">Оновлення меню...</string>
+    <string name="title_discount">Знижка "%s"</string>
+    <string name="title_ringtone_chooser">Мелодія сповіщення про нові повідомлення</string>
+    <string name="title_guest">Гостей</string>
+    <string name="err_fill_order">Заповніть замовлення</string>
+    <string name="title_menu_control">Контролювати актуальність цін меню</string>
+    <string name="title_new_message_sound">Мелодія нового повідомлення</string>
+    <string name="title_default">За замовчуванням</string>
+    <string name="organization_name">Назва установи</string>
+    <string name="title_enter_organization_name">Введіть назву організації</string>
+    <string name="title_after_print_action">Запитувати подальші дії після відправки на кухню</string>
+    <string name="err_old_service">Версія серверу нижче% s. Робота неможлива.</string>
+    <string name="crash_toast_text">Стався збій в роботі програми</string>
+    <!--  -->
+    <string name="err_no_rights">У користувача немає прав.</string>
+    <string name="err_insufficient_prod_count">Недостатня кількість продукту. Доступно:</string>
+    <string name="err_invalid_symbols">Введені некоректні символи. Пароль може складатися тільки з букв, цифр і символів \"-\" \"_\"</string>
+    <string name="dialog_title_send_order">Відправка замовлення ...</string>
+    <string name="title_exit_from_fast_food">Ви дійсно хочете вийти з редагування замовлення фастфуд?</string>
+    <string name="title_err">Помилка</string>
+    <string name="err_order_close">Помилка при закритті замовлення</string>
+    <string name="title_try_again">Повторити</string>
+    <string name="err_menu_update">Сталася помилка при оновленні меню</string>
+    <string name="dialog_title_open_order">Відкриття замовлення ...</string>
+    <string name="setting_without_sound">Без звуку</string>
+    <string name="alternative_server_address">Адреса альтернативного сервера</string>
+    <string name="device_name_for_server">Назва пристрою в запитах до сервера</string>
+    <string name="enter_device_name">Введіть назву пристрою</string>
+    <string name="title_order_closing">Закриття заказу...</string>
+    <string name="fill_order">Заповніть замовлення</string>
+    <string name="err_order_closed_on_server">Замовлення було закрите на сервері</string>
+    <!--  -->
+    <string name="err_required_field">Параметр обов\'язковий для заповнення</string>
+    <string name="err_currency_restriction">Максимальна довжина найменування валюти 6 символів</string>
+    <string name="title_pref_currency">Валюта</string>
+    <string name="hint_enter_currency_name">Введіть найменування валюти</string>
+    <string name="title_about_programm">Про програму</string>
+    <string name="title_about">Про програму</string>
+    <string name="app_description">Додаток призначений для автоматизації прийому замовлень лінійним персоналом в ресторанах, кафе, клубах і розважальних центрах, а так само інших підприємствах громадського харчування, автоматизованих за допомогою програмного продукту \'РестАрт\'.</string>
+    <string name="title_app_description">Опис\nпродукту:</string>
+    <string name="title_version">Версія</string>
+    <string name="title_product_name">Назва\nпродукту:</string>
+    <string name="title_mobile_apps">Мобільні додатки</string>
+    <string name="title_pc_apps">Додатки для ПК 1С-Рарус</string>
+    <string name="title_company">© 2015 ООО «1C-Рарус»</string>
+    <string name="err_invalid_server_adr">Помилка у форматі адреси сервера</string>
+    <string name="title_description">Опис</string>
+    <!--  -->
+    <string name="phone_number">+7 (495) 231-20-02</string>
+    <string name="title_phone">Телефон</string>
+    <string name="restart_mail">restart@rarus.ru</string>
+    <string name="title_email">Email:</string>
+    <string name="rarus_website">rarus.ru</string>
+    <string name="title_web">Web:</string>
+    <string name="title_licence">Ліцензійна угода</string>
+    <string name="title_rarus_apps">Рекомендовані програми для ПК</string>
+    <string name="title_mobile_rarus_apps">Мобільні додатки 1С-Рарус</string>
+    <string name="title_product_version">Версія продукту:</string>
+    <string name="abort">Скасувати</string>
+    <string name="action_prechecked">закрити</string>
+    <string name="action_ready_for_print">відправити на кухню</string>
+    <string name="add_new_course">Додавання нового курсу</string>
+    <string name="add_new_course_to_order">Додати курс %d до замовлення?</string>
+    <string name="app_phone_name">РестАрт: Офіціант</string>
+    <string name="auth_rights_error">Відсутне право для роботи з АРМ офіціанта</string>
+    <string name="auth_server">Авторизація ...</string>
+    <string name="card_cancel">ВІДМІНА</string>
+    <string name="card_create">СТВОРИТИ</string>
+    <string name="card_create_field_error">Поле обов\'язкове для заповнення</string>
+    <string name="card_creation">Створення карти...</string>
+    <string name="card_download_error">Сталася помилка під час отримання карти</string>
+    <string name="card_is_blocked">Картка заблокована</string>
+    <string name="card_not_found">Картка не знайдена. Створити нову?</string>
+    <string name="card_not_selected">Картка: не вказана</string>
+    <string name="card_rights_error">відсутне право</string>
+    <string name="card_search">Пошук карти</string>
+    <string name="choose_course">Виберіть курс</string>
+    <string name="choose_course_for_print">Виберіть курс для друку</string>
+    <string name="choose_guest_for_precheck">Виберіть, якому гостеві надрукувати чек</string>
+    <string name="close_order">Закриття замовлення</string>
+    <string name="confirm_order_exit">Вийти? замовлення не зберігається</string>
+    <string name="confirm_order_exit_2">Зберегти замовлення?</string>
+    <string name="course_delay_title">Затримка подачі для курсу %d</string>
+    <string name="course_delay_min_pattern">%d хв</string>
+    <string name="course_num">Курс %d</string>
+    <string name="course_number">Курс %d</string>
+    <string name="course_with_number">Курс: %s</string>
+    <string name="delay_before_course">Затримка подачі по курсу №%d</string>
+    <string name="dialog_change_user">Ви дійсно хочете змінити користувача?</string>
+    <string name="dialog_need_update">Дані на сервері були змінені. Необхідно оновити дані.</string>
+    <string name="err_check_timout">Частота перевірки може бути вказана в діапазоні від 1 до 120 секунд</string>
+    <string name="err_field_must_be_filled">Поле має бути заповнене</string>
+    <string name="err_min_guest_count">Мінімальна кількість гостей</string>
+    <string name="err_new_db_update">Неможливо додати продукт. Оновлення базу.</string>
+    <string name="err_no_menu_for_users">Ні меню для роботи користувача</string>
+    <string name="err_unknown_err">Виникла невідома помилка</string>
+    <string name="error">Помилка</string>
+    <string name="error_adress_empty">Адреса сервера не заповнений</string>
+    <string name="group_not_full">Група \'%s\' не заповнена</string>
+    <string name="guest_num_count_title">Гостей:</string>
+    <string name="guest_num_title">Гість:</string>
+    <string name="guests_with_number">Гостей: %s</string>
+    <string name="ignore">нехтувати</string>
+    <string name="input_guest_count">Введіть кількість гостей</string>
+    <string name="input_price">Введіть ціну</string>
+    <string name="input_guest_num">Введіть номер гостя</string>
+    <string name="input_quantity">Введіть кількість</string>
+    <string name="item_properties">Властивості страви</string>
+    <string name="items_list_empty">Додайте позиції в замовлення</string>
+    <string name="menu">Меню</string>
+    <string name="menu_item_in_top_list">Позиція в стоп-аркуші</string>
+    <string name="mesg_db_changes">Були отримані зміни в БД. Необхідно провести оновлення</string>
+    <string name="mods_group_max_count_added">Додано максимальну кількість модифікаторів до групи</string>
+    <string name="mods_not_correct">Неправильно налаштовані обмеження за кількістю модифікаторів</string>
+    <string name="mods_pos_max_count_added">Додано максимальну кількість модифікаторів до позиції</string>
+    <string name="mods_title">Модифікатори</string>
+    <string name="msg_db_update">Були отримані зміни в БД. Необхідно провести оновлення</string>
+    <string name="msg_delete_position">Видалити вибрану позицію?</string>
+    <string name="new_course">Новий курс</string>
+    <string name="no_menu_for_user">Відсутні меню для роботи користувача</string>
+    <string name="no_positions_for_print_to_kitchen">У замовленні відсутні позиції для друку на кухню</string>
+    <string name="no_positions_fore_fastfood">Немає позицій для відправки на касу</string>
+    <string name="no_such_menu">Немає меню для роботи користувача</string>
+    <string name="not_enough_mods">Недостатньо модифікаторів</string>
+    <string name="not_enough_products">Недостатньо продуктів для приготування \'%s\'</string>
+    <string name="order">Замовлення</string>
+    <string name="order_closing">Закриття замовлення</string>
+    <string name="order_status_precheck">Замовлення в статусі пречек</string>
+    <string name="order_was_canceled">Замовлення був скасований</string>
+    <string name="print_full_order">Надрукувати весь замовлення</string>
+    <string name="print_preckeck_for_all">Друк пречека для всіх гостей</string>
+    <string name="print_preckeck_for_guest_num">Друкувати пречек для гостя %d</string>
+    <string name="print_total_preckeck">Друк загального пречека</string>
+    <string name="print_whole_order">Надрукувати весь замовлення</string>
+    <string name="err_not_enough_product" formatted="false">Недостатньо \"%s\". Потрібно: %f. В наявності: %f.</string>
+    <string name="quantity">Кількість:</string>
+    <string name="repeat">повторити</string>
+    <string name="reprint">надрукувати повторно</string>
+    <string name="reservation_error">Є помилки при резервуванні. Скасуйте страви перед друком</string>
+    <string name="save_changes">Зберегти зміни?</string>
+    <string name="select_menu">Виберіть меню</string>
+    <string name="send_order">Відправка замовлення на сервер</string>
+    <string name="server_connection_error">Сталася помилка під час зв\'язку з сервером</string>
+    <string name="pull_down_to_update">Потягніть вниз, щоб оновити </string>
+    <string name="settings_after_print_actions">Запитувати подальші дії</string>
+    <string name="settings_card_scan_mode">Режим сканування карт</string>
+    <string name="settings_category_begavior">Налаштування поведінки</string>
+    <string name="settings_category_connection">Налаштування підключення</string>
+    <string name="settings_category_notification">Налаштування сповіщень</string>
+    <string name="settings_category_view">Налаштування відображення</string>
+    <string name="settings_check_udpate_freq">Частота оновлення даних</string>
+    <string name="settings_course_delay_step">Крок затримки по подачі курсу</string>
+    <string name="settings_currency">Валюта</string>
+    <string name="settings_device_name">Назва пристрою</string>
+    <string name="settings_guest_num_dialog">Запитувати номер гостя</string>
+    <string name="settings_keep_actual_menu_prices">Актуальність цін меню</string>
+    <string name="settings_later_step">Крок затримки по страві</string>
+    <string name="settings_message_display_deep">Глибина відображення повідомлень</string>
+    <string name="settings_new_message_sound">Мелодія нового повідомлення</string>
+    <string name="settings_design_version">Вибір інтерфейсу</string>
+    <string name="settings_orgranization_name">Назва організації</string>
+    <string name="settings_ringtone_silent">Без звуку</string>
+    <string name="settings_server_address">Адреса сервера</string>
+    <string name="settings_server_alt_address">Адреса альт. сервера</string>
+    <string name="settings_summary_off">Виключено</string>
+    <string name="settings_summary_on">Включено</string>
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_turn_on_courses">Робота з курсами</string>
+    <string name="settings_group_similar_dishes">Групувати однакові позиції</string>
+    <string name="settings_work_with_alt_server">Альтернативний сервер</string>
+    <string name="text_area_title">Зона</string>
+    <string name="text_menu_items_list_empty">Папка порожня</string>
+    <string name="text_new_order">Нове замовлення</string>
+    <string name="text_object_title">Стіл</string>
+    <string name="text_open_order"> Відкриття замовлення ...</string>
+    <string name="text_orders_count_title">Замовлень</string>
+    <string name="title_area_info">Інформація по столу</string>
+    <string name="title_areas">Вибір зони</string>
+    <string name="title_auth">РестАрт</string>
+    <string name="title_calculator_number">НОМЕР</string>
+    <string name="title_change_guest_count">Гостей:</string>
+    <string name="title_choose_guest_num">Виберіть, якому гостеві надрукувати чек</string>
+    <string name="title_choose_printing_variants">Виберіть варіант друку курсів</string>
+    <string name="title_data_refreshing">Оновлення даних</string>
+    <string name="title_enter_count">Вкажіть кількість</string>
+    <string name="title_enter_guest_number">Введіть номер гостя</string>
+    <string name="title_fast_food">Фастфуд</string>
+    <string name="title_guests_count">Кількість гостей</string>
+    <string name="title_help">Допомога</string>
+    <string name="title_license_agreement">Ліцензійна угода</string>
+    <string name="title_messages">Повідомлення</string>
+    <string name="title_order_list_loading">Оновлення списку замовлень</string>
+    <string name="order_list_empty">Список порожній</string>
+    <string name="title_refresh">Оновити</string>
+    <string name="title_retry_loading">Повторити завантаження</string>
+    <string name="title_search">Пошук</string>
+    <string name="title_select_menu">Вибір меню</string>
+    <string name="title_set_card">Картка</string>
+    <string name="title_splash">РестАрт\n Офіціант</string>
+    <string name="title_try_loading">Повторити завантаження</string>
+    <string name="to_order">Повернутися в замовлення</string>
+    <string name="update">Оновити</string>
+    <string name="update_from_server">Були отримані зміни в БД. Необхідно провести оновлення</string>
+    <string name="wait_loading">Зачекайте, йде завантаження</string>
+    <string name="action_printed">Друкувати пречек</string>
+    <string name="action_fastfood">на касу</string>
+    <string name="by_order">За замовленням</string>
+    <string name="btn_next">далі</string>
+    <string name="increase">Курс:</string>
+    <string name="course_simple">курс</string>
+    <string name="itogo">Разом:</string>
+    <string name="repeat_one_more">Спробувати ще раз</string>
+    <string name="serve">подати</string>
+    <string name="your_password">Ваш пароль</string>
+    <string name="count">Кількість</string>
+    <string name="course_simple_2">Курс</string>
+    <string name="delay">Затримка</string>
+    <string name="description">Опис</string>
+    <string name="properties">Властивості</string>
+    <string name="sum">Сума:</string>
+    <string name="guest_num">Гість</string>
+    <string name="title_course_step">Крок зміни затримки для курсу (хв)</string>
+    <string name="title_later_step">Крок зміни затримки по страві (хв)</string>
+    <string name="title_order_print">Друк замовлення на кухню ...</string>
+    <string name="title_preche_ckprint">Друк пречека...</string>
+    <string name="title_update_period">Частота перевірки актуальності даних (сек)</string>
+    <string name="field_course_step">Введіть час ...</string>
+    <string name="field_idle">Введіть значення тайм-ауту</string>
+    <string name="title_idle">Максимальна затримка таймаута запитів (сек)</string>
+    <string name="enable_course_work">Включити роботу з курсами</string>
+    <string name="guests">Гості</string>
+    <string name="title_guest_count">Введіть кількість гостей</string>
+    <string name="card_check">Перевірка наявності карти ...</string>
+    <string name="guest_num_2">Номер гостя</string>
+    <string name="later">Пізніше</string>
+    <string name="print_all">Надрукувати все</string>
+    <string name="abort_last">Відмінити останню дію</string>
+    <string name="reserve_error">Не вдалося виконати резервування %s</string>
+    <string name="stop_list_poistion">Позиція \'%s\' знаходиться в стоп-аркуші</string>
+    <string name="reserver_error_4" formatted="false">%d)Не вдалося зарезервувати %s. Потрібно \'%.03f\', в наявності \'%.03f\'. \n</string>
+    <string name="no_orders">Замовлення відсутні</string>
+    <string name="text_do_order_coursed">Зробити замовлення курсовим?</string>
+    <string name="text_mod">модифікатори</string>
+
+
+
+    <string-array name="coupons_array">
+        <item>@string/coupon_0</item>
+        <item>@string/coupon_1</item>
+        <item>@string/coupon_2</item>
+        <item>@string/coupon_3</item>
+    </string-array>
+
+    <string name="coupon_0">100 грн</string>
+    <string name="coupon_1">200 грн</string>
+    <string name="coupon_2">300 грн</string>
+    <string name="coupon_3">500 грн</string>
+
+    <string name="money">грн</string>
+
+    <string name="text_coupon_selected">Обрано талонів на суму</string>
+
+
+
+    <!--  Пречек-->
+
+    <string name="guest_cash">Гроші гостя</string>
+
+    <string name="create_new_order">Нове замовлення</string>
+
+
+    <string name="pay">Заплатити</string>
+    <string name="title_pay">Оплатити</string>
+
+    <string name="enter_card_number">Ввести номер карти</string>
+    <string name="select_card">Выбрати карту</string>
+    <string name="scan_bar_code">Считати штрихкод</string>
+    <string name="card_number">Номер карти</string>
+
+    <string name="title_payment">Спосіб оплати</string>
+    <string name="conduct_check">Пробити чек</string>
+    <string name="abort_payment">Скасувати оплату</string>
+
+    <string name="title_cash">Готівка</string>
+    <string name="title_bank_card"> Банківська картка</string>
+    <string name="title_deposit_card">Депозитна картка</string>
+    <string name="title_coupon">Талон</string>
+
+    <string name="title_card_list">Список карт</string>
+    <string name="text_card_selected">Вибрана карта №</string>
+
+    <string-array name="settings_var_data_check_freq">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>45 секунд</item>
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+    </string-array>
+
+    <string-array name="settings_var_card_scan_mode">
+        <item>Автоматичний</item>
+        <item>Ручний</item>
+    </string-array>
+
+    <string-array name="settings_var_later_change_step">
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>5 хвилин</item>
+        <item>8 хвилин</item>
+        <item>10 хвилин</item>
+        <item>15 хвилин</item>
+    </string-array>
+
+    <string-array name="settings_var_message_depth">
+        <item>1 день</item>
+        <item>2 дні</item>
+        <item>3 дні</item>
+        <item>4 дні</item>
+        <item>5 днів</item>
+        <item>6 днів</item>
+        <item>7 днів</item>
+    </string-array>
+    <string name="connection_error">Помилка з\'єднання. Перевірте Wi-Fi і спробуйте ще раз.</string>
+    <string name="input_min_value">Введено значення менше мінімального %d</string>
+    <string name="input_value"> Введіть значення</string>
+    <string name="hint_search">Введіть назву або код</string>
+    <string name="not_found">Нічого не знайдено</string>
+    <string name="check_for_all">Загальний чек</string>
+    <string name="check_for_any">Чек для кожного</string>
+    <string name="text_complete">ok</string>
+    <string name="too_many_symbols">Ви ввели занадто багато символів</string>
+    <string name="help_header_text">Статуси замовлень</string>
+    <string name="icon_descr_no_icon">Нема іконки - замовлення просто збережено</string>
+    <string name="text_order_lock">Заказ заблокирован:</string>
+    <string name="icon_descr_saved">Показує, що замовлення збережено. Його можна редагувати і/або
+        відправити на кухню.</string>
+    <string name="icon_descr_chef">Показує, що всі позиції замовлення віддруковані на кухню.
+        Замовлення можна перевести в статус пречек.</string>
+    <string name="icon_descr_chef_printer">Показує, що в замовленні присутні не видрукувані на кухню позиції.</string>
+    <string name="icon_descr_precheck">Показує, що по даному замовленню можна внести оплату.</string>
+    <string name="icon_descr_printer">Показує, що в даний момент замовлення друкується, або очікує друку на принтері.</string>
+    <string name="icon_descr_printer_error">Показує, що сталася помилка друку. При відкритті
+        замовлення з\'являється детальна інформація про помилку.</string>
+    <string name="app_version">Версія 1.10.6</string>
+    <string name="auth_rest_api_version_too_old">Необхідно оновити версію служби REST
+        API.\nРабота буде продовжена, але можливе виникнення помилок.</string>
+
+    <string name="auth_rest_api_version_current_prefix">Поточна версія</string>
+    <string name="auth_rest_api_version_needing_prefix">Необхідна версія</string>
+
+
+</resources>

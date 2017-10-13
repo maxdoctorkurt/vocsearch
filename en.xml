@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  -->
+    <string name="app_name">RestArt: waiter</string>
+    <!-- Test for LaunchActivity -->
+    <string name="launch_info">Loading\n data</string>
+    <!-- Menu for login activity -->
+    <string name="settings">Settings</string>
+    <!-- Dialogues -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!-- Settings -->
+    <string name="server_title">Server address</string>
+    <string name="web_group_guid">{4b2cbfb0-1941-11e4-8c21-0800200c9a66}</string>
+    <!-- hints -->
+    <string name="enter_serverAddress">Enter server address… </string>
+    <!-- About -->
+    <string name="about_text">Rarus restaurant.\n\nVersion: %%version%%\nAssembly: %%num%%</string>
+    <!-- PreferencesActivity -->
+    <string name="title_check_service_connection">Checking the connection to the server...</string>
+    <string name="title_service_state">Server orderStatus</string>
+    <string name="msg_service_connected">Connected to the server</string>
+    <string name="msg_service_unavailable">Error. No connection to the server</string>
+    <!-- OrderListActivity -->
+    <string name="title_receive_order_list">Getting the list of orders...</string>
+    <string name="title_choose_order">Choose order</string>
+    <string name="title_eneter_guest_count">Specify the number of guests</string>
+    <string name="title_new">New</string>
+    <string name="option_refresh_orders">Update the list of orders</string>
+    <!-- Default settings -->
+    <string name="default_service_address">oasur.asuscomm.com:29121</string>
+    <string name="refresh_data">Update data</string>
+    <string name="warn_zero_value">The value entered must be greater than 0</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_ivalid_pass">Incorrect password!</string>
+    <string name="pbar_load_users">Loading the list of users...</string>
+    <string name="ok">ОК</string>
+    <string name="wrn_insufficient_mods">Insufficient modifiers</string>
+    <string name="refresh_title">Try again</string>
+    <string name="err_no_wi_fi">No connection. Check the Wi-fi and try again.</string>
+    <string name="title_order_list">ACTIVE ORDERS</string>
+    <string name="order_list_empty">The list is empty</string>
+    <string name="title_currency">rub.</string>
+    <string name="stub_sharp">###</string>
+    <string name="stub_number">№</string>
+    <string name="stub_price">10 500 rub.</string>
+    <string name="stub_area">First floor</string>
+    <string name="stub_object">Table 1:</string>
+    <string name="title_menu">Menu</string>
+    <string name="pref_order_list_position">Position of the list of orders</string>
+
+    <string-array name="position_variant">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+
+    <string name="activity_title_orders_list_activity">Zones and tables</string>
+    <string name="warn_stopped_menu_item"> %s position is on the stop-list.</string>
+    <string name="title_check_server_connection">Check the connection to the server</string>
+    <string name="exit_dialog_question">Do you really want to quit the application?</string>
+    <string name="stub_time">00:00</string>
+    <string name="stub_menu">Just menu</string>
+    <string name="title_new_order">NEW ORDER:</string>
+    <string name="description_no_description">no description</string>
+    <string name="hint_enter_password">Your password</string>
+    <string name="stub_dish_name">Heart of Dragon Tea 300ml</string>
+    <string name="title_order">Order</string>
+    <string name="title_to_kitchen">To the kitchen</string>
+    <string name="title_total">Total:</string>
+    <string name="title_loading">Loading</string>
+    <string name="stub_group">Group</string>
+    <string name="stub_text">Text</string>
+    <string name="stub_date">12.07</string>
+    <string name="stub_guest">Guests:</string>
+    <string name="number_zero">0</string>
+    <string name="title_ready">Done</string>
+    <string name="title_order_sended_to_kitchen">Order was sent to the House</string>
+    <string name="title_menu_search">Search for dishes</string>
+    <string name="hint_search_query">Name of the dish</string>
+    <string name="stub_list_title_product">Product</string>
+    <string name="title_no_description">Description is not available</string>
+    <string name="title_name">DENOMINATION</string>
+    <string name="title_count">QUANTITY</string>
+    <string name="title_price">PRICE</string>
+    <string name="price_title">Price: </string>
+    <string name="input_price">Input price</string>
+    <string name="stub_count">23</string>
+    <string name="title_save">Save</string>
+    <string name="hint_comment">Comment</string>
+    <string name="stub_10">10</string>
+    <string name="title_stub_count">Enter quantity</string>
+    <string name="stub_price_zero">0</string>
+    <string name="warn_no_connection">No connection to the Internet</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_7">7</string>
+    <string name="title_8">8</string>
+    <string name="title_9">9</string>
+    <string name="title_6">6</string>
+    <string name="title_5">5</string>
+    <string name="title_4">4</string>
+    <string name="title_1">1</string>
+    <string name="title_2">2</string>
+    <string name="title_3">3</string>
+    <string name="title_dot">.</string>
+    <string name="title_0">0</string>
+    <string name="title_half">1/2</string>
+    <string name="stub_table_5">Table №5 Order</string>
+    <string name="tile_to_kitchen">To the House</string>
+    <string name="title_save_order">Save your order?</string>
+    <string name="title_precheck">Precheck</string>
+    <string name="template_money">%.2f rub.</string>
+    <string name="title_remove_mod">Delete modifier?</string>
+    <string name="warn_unsupported_nfc">Device does not support NFC</string>
+    <string name="title_card">Card</string>
+    <string name="question_new_card">The card is not detected. Create new?</string>
+    <string name="error_server_err">No connection to the server.</string>
+    <string name="title_enter_weight">Specify weight</string>
+    <string name="question_change_mod_count">Do you want to change the number of modifiers in accordance with the main dish?</string>
+    <string name="question_delete_item">Do you want to delete the selected element?</string>
+    <string name="error_no_server_connection">No connection to the server.</string>
+    <string name="error_invalid_adress_format">Incorrect server address format.</string>
+    <string name="msg_order_is_loaded">Order loaded successfully</string>
+    <string name="msg_order_isnt_loaded">Order was not loaded</string>
+
+    <string-array name="variants">
+        <item>Print the check</item>
+        <item>Back to the order</item>
+        <item>Exit the order</item>
+    </string-array>
+
+    <string name="variant_print_precheck">Print the check</string>
+    <string name="variant_to_order">Back to the order</string>
+    <string name="variant_exit_from_order">Exit the order</string>
+
+    <string name="template_money_no_fractions">%.0f rub.</string>
+    <string name="currency_ru">&quot; rub.&quot;</string>
+    <string name="stub_1">1</string>
+    <string name="stub_slash">/</string>
+    <string name="stub_4">4</string>
+    <string name="stub_table">Table 1</string>
+    <string name="hint_last_name">Surname</string>
+    <string name="hint_first_name">Name</string>
+    <string name="hint_patronimic">Second name</string>
+    <string name="hint_birthday">Date of birth</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_email">Email</string>
+    <string name="title_create">Create</string>
+    <string name="title_new_card">New boundCard</string>
+    <string name="err_field_required">A required field</string>
+    <string name="stub_table_order">Table №5 Order</string>
+    <string name="title_card_mode">Cards Scan Mode</string>
+
+    <string-array name="card_mods">
+        <item>Automatic</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string name="title_enter_card">Card input</string>
+    <string name="title_order_another">Order</string>
+    <string name="stub_dialog_title">Table № 5 order: Card</string>
+    <string name="title_card_number">Card number:</string>
+    <string name="title_barcode">Barcode</string>
+    <string name="title_done">Done</string>
+    <string name="title_fastfood_order">Fast food order</string>
+    <string name="title_fastfood">Fast food</string>
+    <string name="title_to_cash">To the cashier</string>
+    <string name="enter_birthday">Enter your birth date</string>
+    <string name="error_on_order">An error occurred while sending the order. Try again.</string>
+    <string name="toast_send_successfull">Order was sent successfully</string>
+    <string name="msg_send_to_cash">Send your order to the cashier?</string>
+    <string name="msg_exit_from_fastfood">Do you want to quit the order edit form? The information will not be saved.</string>
+    <string name="option_relogin">Log in as a different user</string>
+    <string name="option_logout">Log out</string>
+    <string name="error_while_check_on_server">Error in checking the amount of the product on the server. Try again.</string>
+    <string name="error_insufficient_product_count">There are only %.0f units of the product available.</string>
+    <string name="err_insufficient_product_count">Insufficient amount of product</string>
+    <string name="err_order_isnt_loaded">Server error. Order was not loaded</string>
+    <string name="error_service_err">Server error. Try one more time.</string>
+    <string name="error_cant_create_card">Card creation error. Do you want to try again?</string>
+    <string name="msg_card_isnt_found">The boundCard was not found\nCreate a new one??</string>
+    <string name="title_card_dialog">Order %s: Card</string>
+    <string name="title_scan_card">Scan the boundCard</string>
+    <string name="msg_card_have_saved">Card was successfully saved</string>
+    <string name="title_need_app_barcode_scanner">Do you want to install Barcode Scanner?</string>
+    <string name="msg_install_barcode_scanner">Barcode Scanner application is required for scanning. Install it?</string>
+    <string name="stub_message">Сообще́ние — наименьший элемент языка, имеющий идею или смысл, пригодный для общения. Также, форма предоставления информации, совокупность знаков или первичных сигналов, содержащих информацию.</string>
+    <string name="stub_message_type">Ахтунг</string>
+    <string name="stub_message_date">2 января</string>
+    <string name="stub_message_time">12:52</string>
+    <!--  -->
+
+    <string-array name="order_editor_schemes">
+        <item>Order, Menu, Groups</item>
+        <item>Order, Groups, Menu</item>
+        <item>Groups, Menu, Order</item>
+    </string-array>
+
+    <string name="pref_order_items_position">Order editor screen scheme</string>
+    <string name="title_message_readed">Read</string>
+    <string name="notification_new_messages_count">New messages: %s</string>
+    <string name="title_view_message_list">View messages</string>
+    <string name="notification_new_messages">New messages</string>
+    <string name="title_message_obsolete">Show posts no older than (days)</string>
+    <string name="hint_days_count">Days</string>
+    <!--  -->
+    <string name="title_demo_mod">Parameters are specified for demo mode. Password to log in 777.</string>
+    <string name="btn_demo_server">set demoserver\'s \naddress</string>
+    <string name="order_number">Order № %d</string>
+    <!--  -->
+    <string name="err_pass_shouldnt_be_empty">The password must be filled</string>
+    <string name="err_card_is_blocked">Card is blocked</string>
+    <!--  -->
+    <string name="default_organization_name">Restaurant</string>
+
+    <string name="default_design_version_phone">For smartphone</string>
+    <string name="default_design_version_tablet">For a tablet</string>
+
+    <string name="title_welcome">------WELLCOME------</string>
+    <string name="titel_guest_bill">****************GUEST ACCOUNT****************</string>
+    <string name="check_bottom">======================================</string>
+    <string name="title_total_by_order">Total order:</string>
+    <string name="discount_title">Discount:</string>
+    <string name="title_total_sum">Total sum:</string>
+    <string name="title_avanse">Advance:</string>
+    <string name="card_avance">Card:</string>
+    <string name="title_total_for_pay">Total to pay:</string>
+    <string name="default_discount_name">Discount</string>
+    <string name="precheck_order_number">Order № %d</string>
+    <string name="precheck_waiter">Waiter: %s</string>
+    <string name="precheck_precheck">Precheck: %s</string>
+    <string name="precheck_table_opened">Table was opened: %s</string>
+    <string name="precheck_printed">Printed: %s</string>
+    <string name="title_error_on_service">An error occurred while trying to communicate with the server</string>
+    <!--  -->
+    <string name="title_card_with_name">Card: %s</string>
+    <string name="title_guest_with_number" formatted="false">Guests: %d/%d</string>
+    <string name="title_order_editor" formatted="false">Order № %d: %s (%s)</string>
+    <string name="error_order_item_creation">An error occurred while creating the sales order item</string>
+    <string name="error_open_order">Error opening order</string>
+    <string name="error_order_new_owner">In order changed owner</string>
+    <string name="version" formatted="false">Version %s.%d</string>
+    <string name="title_menu_update">Update menu...</string>
+    <string name="title_discount">Discount "%s"</string>
+    <string name="title_ringtone_chooser">Sound notification of new messages</string>
+    <string name="title_guest">Guests</string>
+    <string name="err_fill_order">Fill in the order</string>
+    <string name="title_menu_control">Monitor the relevance price menu</string>
+    <string name="title_new_message_sound">New message melody</string>
+    <string name="settings_design_version">Select interface</string>
+    <string name="title_default">Default</string>
+    <string name="organization_name">Organization name</string>
+    <string name="title_enter_organization_name">Enter name of organization</string>
+    <string name="title_after_print_action">Request further action after sending to kitchen</string>
+    <string name="err_not_enough_product" formatted="false">Not enough \"%s\". Requires: %f. As availability: %f.</string>
+    <string name="err_old_service">Server version below% s. Operation is impossible.</string>
+    <string name="crash_toast_text">Application is crashed</string>
+    <!--  -->
+    <string name="err_no_rights">This user has no rights.</string>
+    <string name="err_insufficient_prod_count">Insufficient amount of product. Available:</string>
+    <string name="err_invalid_symbols">Entered invalid characters. The password can only consist of letters, numbers and symbols \"-\" \"_\"</string>
+    <string name="dialog_title_send_order">Send order ...</string>
+    <string name="title_exit_from_fast_food">Are you sure you want to exit the editing order fast food?</string>
+    <string name="title_err">Error</string>
+    <string name="err_order_close">Error closing order</string>
+    <string name="title_try_again">Repeat</string>
+    <string name="err_menu_update">An error occurred while updating the menu</string>
+    <string name="dialog_title_open_order">Opening order ...</string>
+    <string name="setting_without_sound">Silent</string>
+    <string name="alternative_server_address">Alternate server address</string>
+    <string name="device_name_for_server">The device name in the request to the server</string>
+    <string name="enter_device_name">Enter the name of the device</string>
+    <string name="title_order_closing">Close order ...</string>
+    <string name="fill_order">Fill in the order</string>
+    <string name="err_order_closed_on_server">The order has been closed on the server</string>
+    <!--  -->
+
+    <string name="err_currency_restriction">The maximum length of the name of the currency is 6 characters</string>
+    <string name="title_pref_currency">Currency</string>
+    <string name="hint_enter_currency_name">Enter the name of the currency</string>
+    <string name="title_about_programm">About</string>
+    <string name="title_about">About</string>
+    <string name="title_app_description">Product \ndescription:</string>
+    <string name="title_version">Version:</string>
+    <string name="title_product_name">Product\nName:</string>
+    <string name="title_mobile_apps">Mobile Applications</string>
+    <string name="title_pc_apps">PC application 1C-Rarus</string>
+    <string name="title_company">© 2015 ООО «1C-Rarus»</string>
+    <string name="err_invalid_server_adr">Format error in the server address</string>
+    <!--  -->
+    <string name="phone_number">+7 (495) 231-20-02</string>
+    <string name="title_phone">Phone</string>
+    <string name="restart_mail">restart@rarus.ru</string>
+    <string name="title_email">Email:</string>
+    <string name="rarus_website">rarus.ru</string>
+    <string name="title_web">Web:</string>
+    <string name="title_description">Description</string>
+    <string name="title_licence">License agreement</string>
+    <string name="title_rarus_apps">Recommended software for PC</string>
+    <string name="title_mobile_rarus_apps">Mobile applications 1C-Rarus</string>
+    <string name="title_product_version">Product Version:</string>
+    <string name="abort">abort</string>
+    <string name="action_fastfood">to the cashier</string>
+    <string name="action_prechecked">close</string>
+    <string name="action_printed">precheck</string>
+    <string name="action_ready_for_print"> send to the kitchen</string>
+    <string name="add_new_course">Adding a new increase</string>
+    <string name="add_new_course_to_order">Add %d increase to order?</string>
+    <string name="app_description">The application is designed to automate the order entry line staff in restaurants, cafes, clubs and entertainment centers, as well as other catering establishments, automated using software \'RestArt\'.</string>
+    <string name="app_phone_name">RestArt: Waiter</string>
+    <string name="auth_rights_error">There is no right to work with ARM waiter</string>
+    <string name="auth_server">Authorization...</string>
+    <string name="by_order">On order</string>
+    <string name="card_cancel">CANCEL</string>
+    <string name="card_create">CREATE</string>
+    <string name="card_create_field_error">Required field</string>
+    <string name="card_creation">Card creation</string>
+    <string name="card_download_error">An error occurred while getting the card</string>
+    <string name="card_is_blocked">Card is locked</string>
+    <string name="card_not_found">The card is not found. Create a new one?</string>
+    <string name="card_not_selected">Card not specified</string>
+    <string name="card_rights_error">No rights</string>
+    <string name="card_search">Card search</string>
+    <string name="choose_course">Choose course</string>
+    <string name="choose_course_for_print">Select increase for print</string>
+    <string name="choose_guest_for_precheck">Select any guest to print check</string>
+    <string name="close_order">Closing order</string>
+    <string name="confirm_order_exit">Exit? the order is not saved</string>
+    <string name="confirm_order_exit_2">Save the order?</string>
+    <string name="course_delay_min_pattern">%d min</string>
+    <string name="course_delay_title">Delay for feed increase %d</string>
+    <string name="course_num">Course %d</string>
+    <string name="course_number">Course %d</string>
+    <string name="course_with_number">Course: %s</string>
+    <string name="delay_before_course">Delay for feed increase %d</string>
+    <string name="dialog_change_user">Do you really want to change the user?</string>
+    <string name="dialog_need_update">The data on the server has been changed. You must update the data.</string>
+    <string name="err_check_timout">Update period can be specified in the range of 1 to 120 seconds</string>
+    <string name="err_field_must_be_filled">The field must be filled</string>
+    <string name="err_min_guest_count">The minimum number of guests</string>
+    <string name="err_new_db_update">You can not add the product. Update the database.</string>
+    <string name="err_no_menu_for_users">No menu for user</string>
+    <string name="no_menu_items">No menu, contact the administrator</string>
+    <string name="err_required_field">Required field</string>
+    <string name="err_unknown_err">An unknown error occurred</string>
+    <string name="error">Error</string>
+    <string name="error_adress_empty">The server address is empty</string>
+    <string name="group_not_full">The group \'%s\' is not filled</string>
+    <string name="guest_num_count_title">Guests:</string>
+    <string name="guest_num_title">Guests</string>
+    <string name="guests_with_number">Guests: %s</string>
+    <string name="ignore">Ignore</string>
+    <string name="input_guest_count">Enter the number of guests</string>
+    <string name="input_guest_num">Enter the guest number</string>
+    <string name="input_quantity">Enter the number</string>
+    <string name="item_properties">Dish properties</string>
+    <string name="items_list_empty">Add items to order</string>
+    <string name="menu">Menu</string>
+    <string name="menu_item_in_top_list">Dish in the stop list</string>
+    <string name="mesg_db_changes">changes to the database have been received. It is necessary to upgrade</string>
+    <string name="mods_group_max_count_added">Added maximum number of modifiers to a group</string>
+    <string name="mods_not_correct">Incorrectly set limit on the number of modifiers</string>
+    <string name="mods_pos_max_count_added">Added maximum number of modifiers to a position</string>
+    <string name="mods_title">Modifiers</string>
+    <string name="msg_db_update">changes to the database have been received. It is necessary to upgrade</string>
+    <string name="msg_delete_position">Delete selected item?</string>
+    <string name="new_course">New course</string>
+    <string name="no_menu_for_user">Отсутствуют меню для работы пользователя</string>
+    <string name="no_positions_for_print_to_kitchen">In order no position for printing on the kitchen</string>
+    <string name="no_positions_fore_fastfood">No items to send cash</string>
+    <string name="no_such_menu">No menu for user</string>
+    <string name="not_enough_mods">Insufficient modifiers</string>
+    <string name="not_enough_products">It is not enough food for the preparation of \'%s\'</string>
+    <string name="order">Order</string>
+    <string name="order_closing">Closing order</string>
+    <string name="order_status_precheck">Order in precheck</string>
+    <string name="order_was_canceled">The order was canceled</string>
+    <string name="quantity">Amount</string>
+    <string name="print_full_order">Print the entire order</string>
+    <string name="print_preckeck_for_all">Print precheck for all guests</string>
+    <string name="print_preckeck_for_guest_num">Print precheck for the guest %d</string>
+    <string name="print_total_preckeck">Print precheck for all</string>
+    <string name="print_whole_order">Print the entire order</string>
+    <string name="repeat">repeat</string>
+    <string name="reprint">Print again</string>
+    <string name="reservation_error">There are errors in the reservation. Cancel the dishes before printing</string>
+    <string name="save_changes">Save changes?</string>
+    <string name="select_menu">Select menu</string>
+    <string name="send_order">Sending an order to the server</string>
+    <string name="server_connection_error">An error occurred while communicating with the server</string>
+    <string name="settings_after_print_actions">Ask for further action</string>
+    <string name="settings_category_connection">Connection settings</string>
+    <string name="settings_category_notification">Alert settings</string>
+    <string name="settings_category_view">Display settings</string>
+    <string name="settings_check_udpate_freq">Update period</string>
+    <string name="settings_course_delay_step">Step delay on the increase</string>
+    <string name="settings_currency">Currency</string>
+    <string name="settings_device_name">Device name</string>
+    <string name="settings_guest_num_dialog">Ask the guest number</string>
+    <string name="settings_keep_actual_menu_prices">Check menu price</string>
+    <string name="settings_later_step">Delay step on the dish</string>
+    <string name="settings_message_display_deep">Depth display messages</string>
+    <string name="settings_new_message_sound">New post melody</string>
+    <string name="settings_orgranization_name">Organization name</string>
+    <string name="settings_ringtone_silent">Soundless</string>
+    <string name="settings_server_address">Server address</string>
+    <string name="settings_server_alt_address">Alternative server address</string>
+    <string name="settings_summary_off">Turned off</string>
+    <string name="settings_summary_on">Turned on</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_turn_on_courses">Coursed work</string>
+    <string name="settings_group_similar_dishes">Group similar items</string>
+    <string name="settings_work_with_alt_server">Alternative server</string>
+    <string name="text_area_title">Area</string>
+    <string name="text_menu_items_list_empty">Folder is empty</string>
+    <string name="text_new_order">New order</string>
+    <string name="text_object_title">The table</string>
+    <string name="text_open_order">Order opening</string>
+    <string name="text_orders_count_title">Orders</string>
+    <string name="title_area_info">Table information</string>
+    <string name="title_areas">Selecting an area</string>
+    <string name="title_auth">RestArt</string>
+    <string name="title_calculator_number">NUMBER</string>
+    <string name="title_change_guest_count">Guests count</string>
+    <string name="title_choose_guest_num">Select any guest to print check</string>
+    <string name="title_choose_printing_variants">Select courses print</string>
+    <string name="title_data_refreshing">Updating</string>
+    <string name="title_enter_count">Specify amount</string>
+    <string name="title_fast_food">Fast food</string>
+    <string name="title_guests_count">Number of Guests</string>
+    <string name="title_help">Help</string>
+    <string name="title_license_agreement">License agreement</string>
+    <string name="title_messages">Message</string>
+    <string name="notification_new_message">Новое сообщение</string>
+    <string name="title_order_list_loading">Updating the orders list</string>
+    <string name="title_refresh">Update</string>
+    <string name="pull_down_to_update">Pull down to refresh</string>
+    <string name="title_retry_loading">Repeat loading</string>
+    <string name="title_search">Search</string>
+    <string name="title_select_menu">Select menu</string>
+    <string name="title_set_card">Card</string>
+    <string name="title_splash">RestArt: Waiter</string>
+    <string name="title_try_loading">Repeat loading</string>
+    <string name="to_order">Back in order</string>
+    <string name="update">Update</string>
+    <string name="update_from_server">changes to the database have been received. It is necessary to upgrade</string>
+    <string name="wait_loading">Loading, please wait</string>
+    <string name="btn_next">next</string>
+    <string name="increase">Course:</string>
+    <string name="course_simple">Course</string>
+    <string name="itogo">Total:</string>
+    <string name="repeat_one_more">Try one more time</string>
+    <string name="serve">Served</string>
+    <string name="title_enter_guest_number">Enter the guest number</string>
+    <string name="your_password">password</string>
+    <string name="count">Amount</string>
+    <string name="course_simple_2">Course</string>
+    <string name="delay">Delay</string>
+    <string name="description">Description</string>
+    <string name="properties">Properties</string>
+    <string name="sum">Total:</string>
+    <string name="guest_num">Guest</string>
+    <string name="title_course_step">Step delay change for the increase (min)</string>
+    <string name="title_later_step">Step delay variation over the dish (min)</string>
+    <string name="title_order_print">Print order to kitchen...</string>
+    <string name="title_preche_ckprint">Print precheck</string>
+    <string name="title_update_period">The frequency of checking the relevance of the data (sec)</string>
+    <string name="field_course_step">Enter the time ...</string>
+    <string name="field_idle">Enter the timeout value</string>
+    <string name="title_idle">The maximum delay time-out request (s)</string>
+    <string name="enable_course_work">Including work with courses</string>
+    <string name="guests">Guests</string>
+    <string name="title_guest_count">Enter the number of guests</string>
+    <string name="card_check">Checking the card...</string>
+    <string name="guest_num_2">Guest num</string>
+    <string name="later">Later</string>
+    <string name="print_all">Print all</string>
+    <string name="abort_last">Cancel last Action</string>
+    <string name="reserve_error">Unable to complete backup %s</string>
+    <string name="stop_list_poistion">Dish \'%s\' is in the stop list</string>
+    <string name="reserver_error_4" formatted="false">%d) Can not reserve a %s. It is necessary to \'%.03f\', in the presence of \'%.03f\'. \n</string>
+    <string name="no_orders">No orders</string>
+    <string name="connection_error">Connection error. Check the Wi-Fi and try again.</string>
+    <string name="no_connection">No connection.</string>
+    <string name="input_min_value">Enter a value less than the minimum: %.2f</string>
+    <string name="input_value">Enter value</string>
+    <string name="hint_search">Enter the name or num</string>
+    <string name="not_found">Nothing found</string>
+    <string name="check_for_all">Total bill</string>
+    <string name="check_for_any">Bill for each</string>
+    <string name="text_mod">Modifiers</string>
+    <string name="text_no_orders">No orders</string>
+    <string name="text_complete">ok</string>
+    <string name="one_day">1 day</string>
+    <string name="three_days">3 days</string>
+    <string name="select_days">Choose</string>
+    <string name="error_message_pick_day">The day should be earlier than today</string>
+
+
+    <!--  Пречек-->
+    <!--<string name="precheck_pay_button">оплатить</string>-->
+    <!--<string name="precheck_cancel_button">отмена</string>-->
+    <!--<string name="title_pay">Cпособ оплаты</string>-->
+
+    <string name="guest_cash">Guest cash</string>
+
+    <string name="create_new_order">New order</string>
+
+    <string name="pay">Pay</string>
+    <string name="title_payment">Payment method</string>
+    <string name="conduct_check">Conduct check</string>
+    <string name="abort_payment">Сancel</string>
+
+
+    <string name="title_cash">Cash</string>
+    <string name="title_bank_card"> Bank card</string>
+    <string name="title_deposit_card">Deposit card</string>
+    <string name="title_coupon">Coupon</string>
+    <!--  -->
+
+    <string name="title_pay">Pay</string>
+
+    <string name="enter_card_number">Enter card number</string>
+    <string name="select_card">Select card</string>
+    <string name="scan_bar_code">Scan bar code</string>
+    <string name="card_number">Card number</string>
+    <string name="text_card_selected">Selected card №</string>
+
+
+    <string name="title_card_list">Card list</string>
+
+
+    <string-array name="coupons_array">
+        <item>@string/coupon_0</item>
+        <item>@string/coupon_1</item>
+        <item>@string/coupon_2</item>
+        <item>@string/coupon_3</item>
+    </string-array>
+
+    <string name="coupon_0">1 usd</string>
+    <string name="coupon_1">5 usd</string>
+    <string name="coupon_2">50 usd</string>
+    <string name="coupon_3">100 usd</string>
+
+    <string name="money">usd</string>
+
+    <string name="text_coupon_selected">Selected coupons for</string>
+    <string name="notNumber">[^0-9]</string>
+    <string name="too_many_symbols">Too many symbols</string>
+    <string name="text_do_order_coursed">Make order coursework?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_orders_header_text">Order statuses</string>
+    <string name="icon_descr_no_icon">No icon - order is simply saved</string>
+    <string name="text_order_lock">Order is blocked:</string>
+    <string name="icon_descr_saved">Order has been saved. It can be edited
+        and/or send to the kitchen.</string>
+    <string name="icon_descr_chef">All order items are printed in the kitchen.
+        Order can be translated into the status precheck.</string>
+    <string name="icon_descr_chef_printer">Order contains non-printed positions in the kitchen
+        .</string>
+    <string name="icon_descr_precheck">This order can be paid.</string>
+    <string name="icon_descr_printer">The order is being printed at the moment, or is waiting for
+        printing.</string>
+    <string name="icon_descr_printer_error">There was a printing error. At the
+        opening order, you will see detailed information about the error.</string>
+    <string name="app_version">Version 1.10.6</string>
+    <string name="auth_rest_api_version_too_old">You must update the version of the REST service
+        API.\nThe work will continue, but errors may occur.</string>
+
+    <string name="auth_rest_api_version_current_prefix">Current version</string>
+    <string name="auth_rest_api_version_needing_prefix">Required version</string>
+    <string name="msg_not_found">Nothing found on request</string>
+    <string name="msg_invalid_token">Your session has expired. Please log in again</string>
+    <string name="item_merchandise">Product</string>
+    <string name="item_service">Service</string>
+    <string name="item_course">Dish</string>
+    <string name="item_business_lunch">Business lunch</string>
+
+
+    <!-- префиксы и постфиксы для тулбара на экране сообщений -->
+
+    <string name="prefix_messages_for_n_days">Messages for </string>
+    <string name="postfix_messages_days_between_10_20">days</string>
+    <string name="postfix_messages_days_1">day</string>
+    <string name="postfix_messages_days_between_1_5">days</string>
+    <string name="postfix_messages_days_between_5_10">days</string>
+
+
+    <string name="order_sum">Order price</string>
+    <string name="icon_descr_discount">The amount of the order for possible discounts is recalculated.</string>
+    <string name="no_card_name">No data available</string>
+
+    <string name="table_unavailable">Unavailable for current user</string>
+    <string name="select_guest">Select a guest when adding a line item</string>
+    <string name="help_order_header_text">Operations on order items</string>
+    <string name="icon_descr_undo_item">Deletes the last added item from the order</string>
+
+</resources>
